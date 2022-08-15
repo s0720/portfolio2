@@ -155,3 +155,32 @@
     .clear {
         clear:left;
     }
+
+    /* SP */
+    .sp {
+        display:none;
+    }
+
+    .sp-aside-item {
+        display:none;
+    }
+
+    .sp-aside-title {
+        display:none;
+    }
+
+    .sp-profile-img {
+        display:none;
+    }
+
+    .sp-aside-text {
+        display:none;
+    }
+
+    .sp-ranking-item {
+        display:none;
+    }
+
+    .sp-archive {
+        display:none;
+    }
