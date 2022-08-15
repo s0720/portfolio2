@@ -1,0 +1,157 @@
+* {
+    box-sizing:border-box;
+    }
+    
+    body {
+        font-family: "Hiragino Sans",sans-serif;
+        margin:0;
+    }
+
+    .header-title {
+        max-width:1170px;
+        width:80%;
+        margin:0 auto;
+        color:#C27BA1;
+        font-size:28px;
+        height:70px;
+        line-height:70px;
+    }
+
+    .header-menus {
+        background-color:#C27BA1;
+        color:white;
+        height:50px;
+        line-height:50px;
+    }
+
+    .header-menu {
+        max-width:1170px;
+        width:80%;
+        margin:0 auto;
+    }
+
+    .header-menus a{
+        margin-right:50px;
+    }
+
+    .header-menus a:hover {
+        cursor:pointer;
+        opacity:0.6;
+    }
+
+    .container {
+        max-width:1170px;
+        width:80%;
+        margin:0 auto;
+        display:flex;
+    }
+
+    main {
+        flex:3;
+        margin-top:20px;
+    }
+
+    aside {
+        flex:1;
+        margin-top:20px;
+        margin-left:50px;
+    }
+
+    .post {
+        display:flex;
+        margin-bottom:50px;
+    }
+
+    .post:hover {
+        cursor:pointer;
+        opacity:0.6;
+    }
+
+    .post img {
+        width:40%;
+        height:auto;
+    }
+
+    .post p {
+        margin-left:10px;
+    }
+
+    .post-title {
+        font-weight:bold;
+    }
+
+    .aside-item {
+        text-align:center;
+        margin-bottom:80px;
+    }
+
+    .aside-item:hover {
+        cursor:pointer;
+        opacity:0.6;
+    }
+
+    .aside-title {
+        font-weight: bold;
+        padding-bottom:5px;
+        border-bottom:1px solid #D9D9D9
+    }
+
+    .profile-img {
+        width:50%;
+    }
+
+    .aside-text {
+        font-size:14px;
+    }
+
+    .ranking-item img {
+        width:90%;
+    }
+
+    .ranking-item p {
+        font-size:14px;
+    }
+
+    .archive {
+        text-align: center;
+    }
+
+    .archive li:hover {
+        cursor:pointer;
+        opacity:0.6;
+    }
+
+    footer {
+        background-color: #F3F3F3;
+    }
+
+    .c-footer {
+        max-width:1170px;
+        width:80%;
+        margin:0 auto;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    .footer-item {
+        text-align: center;
+        float:left;
+        width:50%;
+    }
+
+    .footer-item li {
+        list-style: none;
+        padding-left:0!important;
+        margin-left:-40px;
+        margin-bottom:10px;
+        font-size:14px;
+    }
+
+    .footer-item li:hover {
+        cursor:pointer;
+        opacity:0.6;
+    }
+
+    .clear {
+        clear:left;
+    }
