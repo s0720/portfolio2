@@ -1,3 +1,17 @@
 @media screen and (max-width:1000px) {
-   
+
+    .header-title {
+        width:80%;
+        margin:0 auto;
+        height:50px;
+        line-height:50px;
+    }
+
+    .header-menus a{
+        display:inline-block;
+        font-size:14px;
+        width:23%;
+        margin:0 auto;
+        text-align: center;;
+    }
 }
