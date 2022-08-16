@@ -33,6 +33,7 @@
     }
 
     aside {
+        display:none;
         width:0%;
         margin-top:0px;
         margin-left:0px;
@@ -66,16 +67,28 @@
     .sp-aside-title {
         display:block;
         font-weight:bold;
+        text-align:center;
     }
 
     .sp-profile-img {
         display:block;
-        width:100%;
+        width:50%;
+        margin:0 auto;
     }
 
     .sp-aside-text {
         display:block;
         font-size:14px;
+    }
+
+    .sp-ranking-item {
+        display:block;
+        margin-bottom:70px;
+    }
+
+    .sp-ranking-item:hover {
+        cursor:pointer;
+        opacity:0.6;
     }
 
     .sp-ranking-item p {
@@ -90,6 +103,11 @@
     .sp-archive:hover {
         cursor:pointer;
         opacity:0.6;
+    }
+
+    footer {
+        background-color: #F3F3F3;
+        margin-top:30px;
     }
 
 
